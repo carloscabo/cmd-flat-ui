@@ -1,0 +1,53 @@
+Windows Registry Editor Version 5.00
+
+;
+; Registry file that maps the FlatUI palette to the 16 avaliable colors
+; in a Windows command prompt. Note, hex values in the table are RBG but byte
+; ordering of a DWORD is BGR, e.g. "ColorTable<##>"=dword:00<B><G><R>
+;
+; Based on Solarized Palette http://ethanschoonover.com/solarized
+; An the color definitions from http://flatuicolors.com/
+;
+; Carlos Cabo 2013
+; https://github.com/carloscabo/cmd-flat-ui
+; http://carloscabo.com
+;
+; NR  cmd.exe      FLAT-UI       HEX      DWORD
+; --  -------      -------       -------  --------
+; 00  Black        Midnight blue #262d33  00332d26 (This is darkened)
+; 01  Blue         Belize hole   #2980b9  00b98029
+; 02  Green        Nephritis     #27ae60  0060ae27
+; 03  Aqua         Green sea     #16a085  0085a016
+; 04  Red          Pomegranate   #c0392b  002b39c0
+; 05  Purple       Wisteria      #8e44ad  00ad448e
+; 06  Yellow       Orange        #f39c12  00129cf3
+; 07  White        Silver        #bdc3c7  00c7c3bd
+; 08  Gray         Concrete      #95a5a6  00a6a595
+; 09  LightBlue    Peter river   #3498db  00db9834
+; 10  LightGreen   Emerald       #2ecc71  0071cc2e
+; 11  LightAqua    Turquoise     #1abc9c  009cbc1a
+; 12  LightRed     Alizarin      #e74c3c  003c4ce7
+; 13  LightPurple  Amethyst      #9b59b6  00b6599b
+; 14  LightYellow  Sun flower    #f1c40f  000fc4f1
+; 15  BrightWhite  Clouds        #ecf0f1  00f1f0ec
+;
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00332d26
+"ColorTable01"=dword:00b98029
+"ColorTable02"=dword:0060ae27
+"ColorTable03"=dword:0085a016
+"ColorTable04"=dword:002b39c0
+"ColorTable05"=dword:00ad448e
+"ColorTable06"=dword:00129cf3
+"ColorTable07"=dword:00c7c3bd
+"ColorTable08"=dword:00a6a595
+"ColorTable09"=dword:00db9834
+"ColorTable10"=dword:0071cc2e
+"ColorTable11"=dword:009cbc1a
+"ColorTable12"=dword:003c4ce7
+"ColorTable13"=dword:00b6599b
+"ColorTable14"=dword:000fc4f1
+"ColorTable15"=dword:00f1f0ec
+"ScreenColors"=dword:00000081
+"PopupColors"=dword:000000f6
