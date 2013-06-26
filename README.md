@@ -18,6 +18,6 @@ Screenshots
 Credits
 =======
 
-Based upon:
-<http://ethanschoonover.com/solarized><br>
+Based upon:  
+<http://ethanschoonover.com/solarized>  
 <http://flatuicolors.com/>
