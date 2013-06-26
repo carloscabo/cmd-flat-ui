@@ -19,5 +19,5 @@ Credits
 =======
 
 Based upon:
-<http://ethanschoonover.com/solarized>
+<http://ethanschoonover.com/solarized><br>
 <http://flatuicolors.com/>
