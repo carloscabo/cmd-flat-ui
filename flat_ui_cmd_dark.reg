@@ -12,6 +12,9 @@ Windows Registry Editor Version 5.00
 ; https://github.com/carloscabo/cmd-flat-ui
 ; http://carloscabo.com
 ;
+; You can revert this changes to the standard CMD colors using this regfile
+; https://gist.github.com/carloscabo/4c5604f64daf662435bfa38337c72e36
+;
 ; NR  cmd.exe      FLAT-UI       HEX      DWORD
 ; --  -------      -------       -------  --------
 ; 00  Black        Midnight blue #262d33  00332d26 (This is darkened)
